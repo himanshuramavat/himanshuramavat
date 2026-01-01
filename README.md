@@ -22,7 +22,7 @@ I'm a Senior Backend Developer with over 1.5 years of experience building robust
 
 - 🔧 Clean and reusable code enthusiast
 - 📚 Constant learner and tech community contributor
-- 🚀 Visit my portfolio: [himanshuramavat.xyz](https://himanshuramavat.xyz)
+- 🚀 Visit my portfolio: [himanshuramavat.in](https://himanshuramavat.in)
 - 📄 Resume: [View Here](https://github.com/himanshuramavat/Portfollio/blob/main/himanshu_Resume.pdf)
 - 📫 Contact: **himanshuramavat07@gmail.com**
 
