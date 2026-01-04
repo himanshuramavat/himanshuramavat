@@ -33,14 +33,6 @@ jobs:
           hide_border: true
           output_path: assets/github/langs.svg
 
-      - name: Generate Streak Stats
-        uses: denvercoder1/github-readme-streak-stats@master
-        with:
-          user: himanshuramavat
-          theme: transparent
-          hide_border: true
-          output_path: assets/github/streak.svg
-
       - name: Commit only if files changed
         run: |
           git config --global user.name "github-actions"
