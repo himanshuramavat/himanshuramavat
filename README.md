@@ -66,14 +66,9 @@ Git · Docker · Linux · Apache Solr · Postman
 
 ## 📈 GitHub Stats
 
-<p align="center">
-  <img src="./assets/github/stats.svg" width="48%" />
-  <img src="./assets/github/langs.svg" width="48%" />
-</p>
-
-<p align="center">
-  <img src="./assets/github/streak.svg" width="60%" />
-</p>
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=himanshuramavat&theme=ayu_mirage)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=himanshuramavat&theme=ayu_mirage)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=himanshuramavat&theme=ayu_mirage)
 
 ---
 
