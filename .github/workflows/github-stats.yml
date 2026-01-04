@@ -2,7 +2,7 @@ name: Generate GitHub Stats (SVG)
 
 on:
   schedule:
-    - cron: "0 0 * * 1"
+    - cron: "0 0 * * 1" # weekly
   workflow_dispatch:
 
 jobs:
@@ -13,25 +13,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate GitHub Stats
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: himanshuramavat
-          show_icons: true
-          include_all_commits: true
-          count_private: true
-          theme: transparent
-          hide_border: true
-          output_path: assets/github/stats.svg
+      - name: Create output directory
+        run: mkdir -p assets/github
 
-      - name: Generate Top Languages
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: himanshuramavat
-          layout: compact
-          theme: transparent
-          hide_border: true
-          output_path: assets/github/langs.svg
+      - name: Download GitHub Stats SVG
+        run: |
+          curl -L \
+            "https://github-readme-stats.vercel.app/api?username=himanshuramavat&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_border=true" \
+            -o assets/github/stats.svg
+
+      - name: Download Top Languages SVG
+        run: |
+          curl -L \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=himanshuramavat&layout=compact&theme=transparent&hide_border=true" \
+            -o assets/github/langs.svg
 
       - name: Commit only if files changed
         run: |
