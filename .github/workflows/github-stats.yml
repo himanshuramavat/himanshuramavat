@@ -1,0 +1,50 @@
+name: Generate GitHub Stats (SVG)
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Stats
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: himanshuramavat
+          show_icons: true
+          include_all_commits: true
+          count_private: true
+          theme: transparent
+          hide_border: true
+          output_path: assets/github/stats.svg
+
+      - name: Generate Top Languages
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: himanshuramavat
+          layout: compact
+          theme: transparent
+          hide_border: true
+          output_path: assets/github/langs.svg
+
+      - name: Generate Streak Stats
+        uses: denvercoder1/github-readme-streak-stats@master
+        with:
+          user: himanshuramavat
+          theme: transparent
+          hide_border: true
+          output_path: assets/github/streak.svg
+
+      - name: Commit only if files changed
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add assets/github/*.svg
+          git diff --cached --quiet || git commit -m "chore: update GitHub stats"
+          git push

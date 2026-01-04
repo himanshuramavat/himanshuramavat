@@ -1,8 +1,8 @@
 <h1 align="center">👋 Hi, I'm Himanshu Ramavat</h1>
-<h3 align="center">Senior Backend Developer | TYPO3 & PHP Specialist | Open Source Contributor</h3>
+<h3 align="center">Backend Developer | PHP & TYPO3 Specialist | Open Source Contributor</h3>
 
 <p align="center">
-  <a href="https://himanshuramavat.xyz" target="_blank">
+  <a href="https://himanshuramavat.in" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-%230A66C2?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/himanshu-ramavat" target="_blank">
@@ -11,46 +11,85 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=himanshuramavat&label=Profile%20Views&color=0e75b6&style=flat" alt="himanshuramavat" />
+  <img src="https://komarev.com/ghpvc/?username=himanshuramavat&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
 ---
 
-### 🧑‍💻 About Me
+## 🧑‍💻 About Me
 
-I'm a Senior Backend Developer with over 1.5 years of experience building robust backend systems using PHP and TYPO3. I focus on performance, scalability, and maintainable architecture—backed by strong problem-solving skills and a love for open source.
+I am a Backend Developer specializing in **PHP and TYPO3**, with hands-on experience building scalable, high-performance web applications. I focus on **clean architecture**, **long-term maintainability**, and **performance optimization** in complex backend systems.
 
-- 🔧 Clean and reusable code enthusiast
-- 📚 Constant learner and tech community contributor
-- 🚀 Visit my portfolio: [himanshuramavat.in](https://himanshuramavat.in)
-- 📄 Resume: [View Here](https://github.com/himanshuramavat/Portfollio/blob/main/himanshu_Resume.pdf)
+I actively contribute to open-source projects, enjoy solving real-world backend problems, and continuously deepen my technical expertise.
+
+- 🔧 Clean, reusable, and testable code  
+- 🧠 Strong debugging and problem-solving mindset  
+- 🚀 Portfolio: [himanshuramavat.in](https://himanshuramavat.in)  
+- 📄 Resume: [View Here](https://github.com/himanshuramavat/Portfollio/blob/main/himanshu_Resume.pdf)  
 - 📫 Contact: **himanshuramavat07@gmail.com**
 
 ---
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-**PHP · TYPO3 · Laravel · MySQL · JavaScript · HTML · CSS · Git · Docker · Postman · Apache Solr · Linux**
+**Backend**  
+PHP · TYPO3 · Laravel · MySQL · REST APIs  
 
----
+**Frontend (working knowledge)**  
+JavaScript · HTML · CSS  
 
-### 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=himanshuramavat&show_icons=true&theme=default" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=himanshuramavat&layout=compact&theme=default" height="150" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=himanshuramavat&theme=default" alt="GitHub Streak" />
-</p>
+**DevOps & Tools**  
+Git · Docker · Linux · Apache Solr · Postman  
 
 ---
 
-### 🔗 Connect With Me
+## ⭐ Featured Projects
 
-- 🌐 Website: [himanshuramavat.xyz](https://himanshuramavat.xyz)
-- 💼 LinkedIn: [linkedin.com/in/himanshu-ramavat](https://www.linkedin.com/in/himanshu-ramavat)
+### 🔹 TYPO3 Extension Development
+- Migration of TYPO3 extensions from **v10 → v13**
+- Extbase & Fluid architecture
+- Backend modules, custom repositories, QueryBuilder optimization
+- Composer-based TYPO3 setups
+
+### 🔹 Laravel Backend Applications
+- RESTful API development
+- Authentication & authorization flows
+- Database design, migrations, and seeders
+- Performance optimization & clean MVC structure
+
+### 🔹 Open Source Contributions
+- TYPO3 ecosystem contributions
+- Bug fixes, improvements, and code reviews
+- Following TYPO3 coding standards & best practices
+
+---
+
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="./assets/github/stats.svg" width="48%" />
+  <img src="./assets/github/langs.svg" width="48%" />
+</p>
+
+<p align="center">
+  <img src="./assets/github/streak.svg" width="60%" />
+</p>
+
+---
+
+## 🧩 What I Focus On
+
+- Backend architecture & scalability  
+- Code readability and long-term maintenance  
+- Performance tuning and debugging  
+- Writing code that other developers enjoy working with  
+
+---
+
+## 🔗 Connect With Me
+
+- 🌐 Website: [himanshuramavat.in](https://himanshuramavat.in)  
+- 💼 LinkedIn: [linkedin.com/in/himanshu-ramavat](https://www.linkedin.com/in/himanshu-ramavat)  
 - 📬 Email: [himanshuramavat07@gmail.com](mailto:himanshuramavat07@gmail.com)
 
 ---
